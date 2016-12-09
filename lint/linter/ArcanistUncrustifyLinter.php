@@ -14,7 +14,8 @@ final class ArcanistUncrustifyLinter extends ArcanistExternalLinter {
   }
 
   public function getInfoDescription() {
-    return pht('Use Uncrustify for processing specified files.');
+    return pht(
+      'A tool to format C/C++/Java/Objective-C/Embedded SQL code.');
   }
 
   public function getLinterName() {
