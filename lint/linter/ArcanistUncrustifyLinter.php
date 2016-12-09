@@ -10,7 +10,7 @@ final class ArcanistUncrustifyLinter extends ArcanistExternalLinter {
   }
 
   public function getInfoURI() {
-    return '';
+    return 'http://uncrustify.sourceforge.net/';
   }
 
   public function getInfoDescription() {
